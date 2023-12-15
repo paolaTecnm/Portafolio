@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Kary">
+    <meta name="description" content="Portafolio de desarrollo web de Kary">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Karina | Desarrolladora Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/kary.jpg" alt="Foto de Kary">
+        <h1>Hola, soy Karina R. Galindo</h1>
+        
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Karina</h2>
+        <p class="seccion-texto">
+          Soy Karina, ingeniera de sistemas apasionada por el desarrollo Front-End, 
+          las redes de computadoras y el mundo fascinante de las redes neuronales y 
+          el machine learning. Desde mi enfoque en el desarrollo Front-End, busco crear 
+          experiencias de usuario que sean atractivas y funcionales. Las redes de computadoras 
+          han sido una constante fascinación en mi carrera, donde he trabajado en diseñar 
+          arquitecturas de red eficientes y resolver desafíos complejos. Recientemente, 
+          me sumergí en el emocionante campo de las redes neuronales y el machine learning, 
+          explorando la capacidad de enseñar a las máquinas a aprender y mejorar por sí mismas. 
+          Estoy emocionada por las oportunidades que este viaje tecnológico continuo presenta.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>
+              Mi enfoque se centra en la fusión de la estética y la eficiencia, 
+              manteniéndome actualizada con las últimas tecnologías para ofrecer 
+              soluciones web innovadoras.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Angular</span>
+            </div>
+          </div>
+          <!-- Machine Learning -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-eye"></i>
+            <p class="experiencia-titulo">Machine Learning</p>
+            <p>
+              Exploro la complejidad de algoritmos inteligentes, buscando aplicaciones 
+              innovadoras para la toma de decisiones y la predicción de resultados. 
+              Este emocionante campo representa para mí la vanguardia de la inteligencia 
+              artificial, donde cada modelo creado es un paso hacia el futuro tecnológico.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">TensorFlow</span>
+              <span class="badge text-bg-primary">PyTorch</span>
+              <span class="badge text-bg-primary">Keras</span>
+            </div>
+          </div>
+          <!-- Ciberseguridad -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-incognito"></i>
+            <p class="experiencia-titulo">Ciberseguridad</p>
+            <p>
+              En el dinámico mundo de la ciberseguridad, mi enfoque como profesional 
+              se centra en garantizar la integridad y la confidencialidad de la información.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Firewalls</span>
+              <span class="badge text-bg-primary">VPN</span>
+              <span class="badge text-bg-primary">End-pont Security</span>
+              <span class="badge text-bg-primary">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Carrito de compras</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/KarinaRmzG/Carrito_Kpop" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://carrito-kpop.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/KarinaRmzG/Clon-google" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://clon-google-tawny.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Reloj Digital</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/KarinaRmzG/Reloj-Dijital" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://reloj-dijital.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/KarinaRmzG" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.png" alt="Foto de Anel">
+              <p class="testimonio-texto">
+                Karina muestra un rápido progreso en la adquisición de habilidades técnicas clave y una 
+                gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender 
+                constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que 
+                Karina seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend
+                en el futuro.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Anel</p>
+                <p class="cargo">Mentora en Tecnolochicas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.jpg" alt="Foto de Erick">
+              <p class="testimonio-texto">
+                Karina sin duda tiene un gran potencial que continúa explotando a medida que avanza en su 
+                camino profesional. Es una persona con la que se puede contar para trabajar en equipo, 
+                tiene determinación por hacer las cosas y cuando desconoce de un tema, hace todo lo posible 
+                para conocer sobre el mismo y no quedarse atrás. Su actitud brinda confianza a los integrantes 
+                del equipo con los que trabaja y su sentido de responsabilidad es de reconocer. De seguir así, 
+                logrará todo lo que se proponga en el futuro.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Erick R. Morales</p>
+                <p class="cargo">Ingeniero en Sistemas Computacionales</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.jpg" alt="Foto de Alan">
+              <p class="testimonio-texto">
+                El progreso que Karina ha demostrado en la adquisición de nuevas habilidades y conocimientos
+                para su desarrollo profesional ha sido increíble, tratando siempre de buscar nuevos retos 
+                que enfrentar y dando siempre excelentes resultados. Sin duda este crecimiento y preparación 
+                le depararán un futuro lleno de éxito en su carrera profesional en el área de desarrollo 
+                frontend.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Alan Francisco C. Chavez</p>
+                <p class="cargo">Programador Full Stack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¡Contacta conmigo para dar vida a tu proyecto! Estoy aquí para convertir tus ideas 
+              en realidad y trabajar contigo para lograr tus objetivos.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Me sumerjo en el aprendizaje constante y en la creación diaria.
+        <br>
+        ¿Qué te parece unir fuerzas y dar vida a un proyecto juntos?
+        <br>
+        ¡Estoy lista para colaborar contigo y convertir nuestras ideas en realidad!
+      </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/karina_ramg" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/KarinaRmzG" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karinarmzg/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/kary_biersack/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="kramirezg1400@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Karina Ramírez Galindo (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
