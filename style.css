@@ -1,17 +1,17 @@
 body {
-  background-color: rgb(178, 199, 93);
+  background-color: rgb(226, 180, 63);
 }
 
 /* Barra de navegacion */
 
 .navbar {
   padding: 2rem;
-  background-color: rgb(116, 205, 141);
+  background-color: rgb(96, 198, 230);
   font-family: "Times New Roman", Georgia;
 }
 
 .nav-link {
-  color: rgb(211, 166, 166);
+  color: rgb(236, 208, 87);
 }
 .navbar-collapse {
   align-items: center;
@@ -51,7 +51,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #f2ad45;
   font-family: 'Dancing Script', cursive;
 }
 
