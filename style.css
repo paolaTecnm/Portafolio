@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(190, 51, 214);
+  background-color: rgb(221, 213, 222);
 }
 
 /* Barra de navegacion */
@@ -51,7 +51,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #a736c7;
+  color: #b81ce3;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -131,7 +131,7 @@ h1 {
 .experiencia i {
   font-size: 2.5rem;
   color: #cee0c0;
-  background-color: #8448d3;
+  background-color: #d2bbef;
   padding: 8px 19px;
   border-radius: 50%;
 }
