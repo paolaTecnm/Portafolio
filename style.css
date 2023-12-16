@@ -1,17 +1,18 @@
 body {
-  background-color: rgb(221, 213, 222);
+  background-color: rgb(111, 136, 236);
 }
 
 /* Barra de navegacion */
 
 .navbar {
   padding: 2rem;
-  background-color: rgb(210, 93, 216);
+  background-color: rgb(248, 232, 249);
   font-family: "Times New Roman", Georgia;
 }
 
 .nav-link {
-  color: rgb(190, 51, 214);
+ 
+ background-color:rgb(111, 136, 236);
 }
 .navbar-collapse {
   align-items: center;
@@ -51,7 +52,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #b81ce3;
+  background-color: rgb(111, 136, 236);;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -131,7 +132,7 @@ h1 {
 .experiencia i {
   font-size: 2.5rem;
   color: #cee0c0;
-  background-color: #d2bbef;
+  background-color: rgb(111, 136, 236);
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -281,7 +282,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(168, 78, 207);
+  background-color: rgb(111, 136, 236);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
