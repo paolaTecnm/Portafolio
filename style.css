@@ -1,17 +1,17 @@
 body {
-  background-color: rgb(176, 169, 152);
+  background-color: rgb(190, 51, 214);
 }
 
 /* Barra de navegacion */
 
 .navbar {
   padding: 2rem;
-  background-color: rgb(193, 71, 200);
+  background-color: rgb(210, 93, 216);
   font-family: "Times New Roman", Georgia;
 }
 
 .nav-link {
-  color: rgb(139, 46, 162);
+  color: rgb(190, 51, 214);
 }
 .navbar-collapse {
   align-items: center;
